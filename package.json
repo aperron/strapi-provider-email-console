@@ -1,0 +1,38 @@
+{
+  "name": "strapi-provider-email-console",
+  "version": "0.0.1",
+  "description": "mock provider for strapi email",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "email",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": { },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "perron.anthony@gmail.com",
+    "name": "Anthony Perron",
+    "url": "https://anthony-perron.fr/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aperron/strapi-provider-email-console.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aperron/strapi-provider-email-console/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
